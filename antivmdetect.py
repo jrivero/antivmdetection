@@ -339,6 +339,8 @@ if 'DELL' in acpi_list[1]:
     manu = acpi_list[1] + '__'
 elif 'LENOVO' in acpi_list[1]:
     manu = acpi_list[1]
+else:
+    manu = "WOOT__"
 
 logfile.write('@ECHO OFF\r\n')
 
